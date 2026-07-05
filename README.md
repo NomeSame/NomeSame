@@ -20,6 +20,6 @@ So I work idea-first: I design the product, direct the implementation, and own t
 🌱 **Comfortable around** Java · Kotlin · Python — and learning by shipping.
 
 📫 **Reach me:** 
-- E-Mail: 
+- E-Mail: nomesame@proton.me
 
 <sub>Based in Brazil · open to collaboration and small product work.</sub>
