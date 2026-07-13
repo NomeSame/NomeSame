@@ -1,10 +1,3 @@
-<!--
-  Entwurf für dein GitHub-Profil-README (Repo: NomeSame/NomeSame).
-  Ersetzt das leere Default-Template. Platzhalter in [eckigen Klammern] noch anpassen.
-  Sprache: Englisch (GitHub-Konvention + internationale Reichweite). Deutsche Version auf Wunsch.
-  Ton lässt sich schärfer oder zurückhaltender einstellen — sag Bescheid.
--->
-
 ### Hi 👋 I'm NomeSame
 
 I build software products by pairing my own ideas and judgment with AI-assisted development.
