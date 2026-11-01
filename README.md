@@ -12,13 +12,15 @@ A local Android audio and video player built with Kotlin, Jetpack Compose, and M
 
 Playback checkpoints are tested against abrupt loss of a separate probe process. In a controlled 2,000-file test, the public player displayed its first list after 1.187 seconds while media-duration parsing was blocked. Release scroll performance still needs measurement.
 
-[Download v1.4.0](https://github.com/NomeSame/MusicMonster-Release)
+[Download the latest release](https://github.com/NomeSame/MusicMonster-Release/releases/latest)
 
 ### [Read & Convert](https://github.com/NomeSame/MarkdownViewer-Releases)
 
 An Android document app for viewing, editing, and converting text, Markdown, HTML, CSV, PDF, DOCX, and XLSX, with capabilities that vary by format. Its DOCX editor saves a separate copy, and PDF-to-DOCX conversion reconstructs editable headings, lists, and paragraphs where the source allows it, with a page-based fallback for harder layouts.
 
-One real document exposed an image-cache problem because 38 image parts contained only four distinct images. Content-based deduplication and device regression tests now cover that case. Version 1.3.0 is published, while dictation remains experimental and complex conversions can lose formatting.
+One real document exposed an image-cache problem because 38 image parts contained only four distinct images. Content-based deduplication and device regression tests now cover that case. An official release is available, while dictation remains experimental and complex conversions can lose formatting.
+
+[Download the latest release](https://github.com/NomeSame/MarkdownViewer-Releases/releases/latest)
 
 ### [Chess Analysis](https://github.com/NomeSame/chess-analysis-android)
 
@@ -30,7 +32,9 @@ A native restart bug came down to duplicate shutdown commands and stale UCI queu
 
 An Android chat app running language models on the device through LiteRT-LM, with streaming, background generation, and a file agent offering eight tools. The agent works on copies, keeps up to five snapshots, and supports planning, confirmation, and automatic execution modes.
 
-Security tests reproduced nine issues, including a file-access boundary failure and CSV formula injection, which were then corrected. The current signed, minified build still needs device acceptance, and the privacy wording needs to be reconciled with Android backup settings.
+Security tests reproduced nine issues, including a file-access boundary failure and CSV formula injection, which were then corrected. The official signed, minified release has a documented physical-device check for model detection and an on-device chat response. Broader agent-chain acceptance remains open in the project review, and the privacy wording needs to be reconciled with Android backup settings.
+
+[Download the latest release](https://github.com/NomeSame/LocalChat-Release/releases/latest)
 
 ## Research that changed my mind
 
@@ -47,7 +51,7 @@ These are documented successful runs, with local and Android device checks kept 
 | Music Monster | 743 executions on 27 Oct 2026 | 130 tests on API 33 on 24 Oct 2026 |
 | Read & Convert | 632 JVM tests on 21 Oct 2026 | 260 tests on API 33, followed by 28 targeted checks after the final scan fix |
 | Chess Analysis | 252 JVM/Robolectric tests on 7 Oct 2026 | 12 tests in an isolated debug app on Android 13 |
-| LocalChat | 427 JVM tests on 7 Oct 2026 | Current signed release awaiting device acceptance |
+| LocalChat | 427 JVM tests on 7 Oct 2026 | Physical-device model detection and chat check documented in the official release notes |
 
 The runs cover different builds and scopes, so they aren't a combined coverage figure or a claim that every current release passed the same suite.
 
