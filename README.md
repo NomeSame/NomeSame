@@ -6,7 +6,7 @@ My projects are built with AI-assisted development. I shape the product, direct 
 
 ## What I'm building
 
-### [Music Monster](https://github.com/NomeSame/MusicMonster)
+### 🎵 [Music Monster](https://github.com/NomeSame/MusicMonster)
 
 A local Android audio and video player built with Kotlin, Jetpack Compose, and Media3. It includes playlists, fuzzy title search, an equalizer, a sleep timer, and video picture-in-picture. The public app needs no account and declares no internet permission.
 
@@ -14,7 +14,7 @@ Playback checkpoints are tested against abrupt loss of a separate probe process.
 
 [Download the latest release](https://github.com/NomeSame/MusicMonster-Release/releases/latest)
 
-### [Read & Convert](https://github.com/NomeSame/MarkdownViewer-Releases)
+### 📄 [Read & Convert](https://github.com/NomeSame/MarkdownViewer-Releases)
 
 An Android document app for viewing, editing, and converting text, Markdown, HTML, CSV, PDF, DOCX, and XLSX, with capabilities that vary by format. Its DOCX editor saves a separate copy, and PDF-to-DOCX conversion reconstructs editable headings, lists, and paragraphs where the source allows it, with a page-based fallback for harder layouts.
 
@@ -22,13 +22,13 @@ One real document exposed an image-cache problem because 38 image parts containe
 
 [Download the latest release](https://github.com/NomeSame/MarkdownViewer-Releases/releases/latest)
 
-### [Chess Analysis](https://github.com/NomeSame/chess-analysis-android)
+### ♟️ [Chess Analysis](https://github.com/NomeSame/chess-analysis-android)
 
 An Android chess app with Stockfish 18 through C++ and JNI, saved games, review and reanalysis, PGN/FEN import, and optional local coaching through llama.cpp with separately supplied models.
 
 A native restart bug came down to duplicate shutdown commands and stale UCI queues. The fix is checked through repeated engine restarts in one process. Version 1.0.0 is published. Move classification remains experimental and hasn't been validated on an independent hold-out set.
 
-### [LocalChat](https://github.com/NomeSame/LocalChat-Release)
+### 💬 [LocalChat](https://github.com/NomeSame/LocalChat-Release)
 
 An Android chat app running language models on the device through LiteRT-LM, with streaming, background generation, and a file agent offering eight tools. The agent works on copies, keeps up to five snapshots, and supports planning, confirmation, and automatic execution modes.
 
@@ -36,7 +36,7 @@ Security tests reproduced nine issues, including a file-access boundary failure 
 
 [Download the latest release](https://github.com/NomeSame/LocalChat-Release/releases/latest)
 
-## Research that changed my mind
+## 📊 Research that changed my mind
 
 My Python trading work includes an Elliott-wave analyzer, a shared signal-validation harness, and a Hyperliquid execution system. I compare signals with matched random baselines, separate selection from out-of-sample checks, and account for fees and slippage.
 
