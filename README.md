@@ -2,7 +2,7 @@
 
 I build Android apps and Python research tools around things I want to use, from a local music library to document editing and chess analysis.
 
-My projects are built with AI-assisted development. I shape the product, direct the implementation, and take responsibility for checking the result. Much of that work happens after the first working version, when a document loses its formatting, an engine fails to restart, or a promising backtest stops looking promising under a fair comparison.
+For me, software development means deciding what to build, how it should work, and how to tell whether it actually does. AI handles the implementation, and I use it for testing and review as well. I set the requirements and priorities, guide the work, and take responsibility for what I accept and release. Writing code by hand is no guarantee of quality, and generating it with AI doesn't settle the question either. What matters is whether the software reliably does its job. Much of my work happens after the first working version, when a document loses its formatting, an engine fails to restart, or a promising backtest stops looking promising under a fair comparison. Those failures shape what gets investigated, changed, and tested next.
 
 ## What I'm building
 
